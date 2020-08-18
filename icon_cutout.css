@@ -1,0 +1,89 @@
+
+/*--------------------------------------------------------------
+# Icon Cutout
+--------------------------------------------------------------*/
+
+/* START adjustable fields */
+
+.x-margin,
+.y-margin{
+    background: white;
+}
+
+.cutout{
+    background: rgba(0, 0, 0, 0);
+}
+
+/* using SVGs */
+
+.center-row{
+    height: 5rem;
+}
+
+.cutout svg *{
+    fill: white;
+}
+
+/* using icon fonts */
+
+/* .cutout i{
+    color: white;
+    font-size: 5rem;
+} */
+
+/* END adjustable fields */
+
+.cutout-wrap {
+	display: flex;
+    flex-direction: column;
+}
+
+.cutout {
+    height: 100%;
+    width: auto;
+	z-index: 0;
+}
+
+.cutout svg {
+    height: 100%;
+}
+
+.center-row {
+	display: flex;
+}
+
+.x-margin,
+.y-margin {
+	position: relative;
+    z-index: 2;
+    flex-grow: 1;
+}
+.x-margin{
+    height: 100%;
+}
+.y-margin{
+    width: 100%;
+    min-height: 1rem;
+}
+
+.y-margin{
+    margin: -1px 0;
+}
+
+.right-margin {
+    margin-right: 0;
+    margin-left: -1px;
+}
+.left-margin{
+    margin-left: 0;
+    margin-right: -1px;
+}
+
+.gutter-margin {
+    margin: 0 -1px;
+}
+.upper-content,
+.lower-content{
+    background: white;
+    height: 5rem;
+}
