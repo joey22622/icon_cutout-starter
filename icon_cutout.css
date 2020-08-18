@@ -1,7 +1,25 @@
 
-/*--------------------------------------------------------------
-# Icon Cutout
---------------------------------------------------------------*/
+/* 
+===================================== 
+    ICON CUTOUT TEMPLATE
+=====================================
+*/
+
+html{
+    background: teal;
+    padding: 4rem;
+}
+.upper-content,
+.lower-content{
+    background: white;
+    min-height: 5rem;
+}
+
+/* 
+===================================== 
+    START copy content 
+=====================================
+*/
 
 /* START adjustable fields */
 
@@ -82,8 +100,9 @@
 .gutter-margin {
     margin: 0 -1px;
 }
-.upper-content,
-.lower-content{
-    background: white;
-    height: 5rem;
-}
+
+/* 
+===================================== 
+    END copy content 
+=====================================
+*/
